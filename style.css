@@ -1,0 +1,92 @@
+html {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.stepbar .prev-button:hover::after {
+  background-image: url("https://www.meteor.com/prev-arrow-hover.png");
+}
+.stepbar .next-button:hover::after {
+  background-image: url("https://www.meteor.com/next-arrow-hover.png");
+}
+.stepbar .next-button::after {
+    background-image: url("https://www.meteor.com/next-arrow.png");
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    background-size: 9px 15px;
+    content: "";
+    height: 20px;
+    margin-top: -11px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 9px;
+}
+.stepbar .prev-button::after {
+    background-image: url("https://www.meteor.com/prev-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 9px 15px;
+    content: "";
+    height: 20px;
+    left: 15px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 9px;
+}
+.stepbar .btn.btn-default:hover {
+  background-color:white;
+  border-color: #de4f4f;
+  color: #de4f4f;
+}
+.stepbar .next-button {
+    padding-right: 50px;
+    position: relative;
+}
+.btn.btn-default {
+    border-color: #27272b;
+    color: #27272b;
+}
+.stepbar .prev-button {
+    padding-left: 50px;
+    position: relative;
+}
+.btn {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid;
+    border-radius: 0;
+    font-family: "ProximaNova-Semibold";
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s linear 0s;
+}
+.btn-default {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #333333;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+* {
+    box-sizing: border-box;
+}
